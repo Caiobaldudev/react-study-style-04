@@ -5,7 +5,8 @@ import { createRoot } from "react-dom/client";
 // import Sty from './Styled_Components/Sty'
 // import BootsEx from "./Bootstrap/BootsEx";
 // import AnimationApp from "./Animations/AnimationApp";
-import AnimaApp from "./Animations_miniproject/AnimaApp";
+// import AnimaApp from "./Animations_miniproject/AnimaApp";
+import ImgApp from "./Images_import/ImgApp";
 
 // Bootstrap
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -13,6 +14,6 @@ import AnimaApp from "./Animations_miniproject/AnimaApp";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AnimaApp />
+    <ImgApp />
   </StrictMode>
 );
